@@ -28,7 +28,25 @@ main .fa-angles-down
   font-size: 3em;
 }
 
-img
+.expandable
 {
   max-width: 300px;
+  cursor: pointer;
+}
+
+.overlay
+{
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+.overlay img 
+{
+  position: relative;
+  max-width: 100vw;
 }
